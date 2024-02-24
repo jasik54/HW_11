@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,html,main,body,p,ol,ul,li{
+margin: 0;
+padding: 0;
+}
+
+ul {list-style-type: none;
+}
+a {text-decoration: none;
+}
+
+body {font-family:Roboto
+}
+
+.logo {
+    font-family: Raleway;
+}
+
+.header {display: flex;
+    justify-content: space-between;
+}
+    
+
+.header nav list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header list {
+    display: flex;
+   
+}
+
+.h1 {
+    text-align: center;
+   
+}
+
+.BUTTON{
+    width: 350px;
+    line-height: 220px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    border: 2px color red;
+    background-color: green;
+}
+
+
